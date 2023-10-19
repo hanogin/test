@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  list: [
+    {value: 'steak-0', viewValue: 'Steak'},
+    {value: 'pizza-1', viewValue: 'Pizza'},
+    {value: 'tacos-2', viewValue: 'Tacos'},
+  ];
+
   foods = [
     { id: 1, name: 'Apple' },
     { id: 2, name: 'Lemon' },

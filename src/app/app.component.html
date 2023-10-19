@@ -1,5 +1,5 @@
 <mat-form-field>
-  <mat-label>Select Food</mat-label>
+  <mat-label>MTX  Food</mat-label>
 
   <mtx-select [items]="foods" bindLabel="name" bindValue="id" [multiple]="multiple" [(ngModel)]="food"
     [required]="required" [disabled]="disabled">
@@ -7,4 +7,19 @@
 
   <mat-hint>Choose your favorite food</mat-hint>
   <mat-error>Please choose a food</mat-error>
+</mat-form-field>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<mat-form-field>
+  <mat-label>Original select</mat-label>
+  <mat-select>
+    <mat-option>test a</mat-option>
+    <mat-option>test b</mat-option>
+    <mat-option>test c</mat-option>
+  </mat-select>
 </mat-form-field>
