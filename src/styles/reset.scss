@@ -1,0 +1,27 @@
+a {
+
+  &.mat-button,
+  &.mat-raised-button,
+  &.mat-fab,
+  &.mat-mini-fab,
+  &.mat-list-item {
+    &:hover {
+      color: currentColor;
+    }
+  }
+}
+
+
+// Form 
+mat-form-field {
+  width: 100%;
+}
+
+// Form reset as material 14
+.mat-mdc-form-field-focus-overlay {
+  background-color: white;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: white
+}
